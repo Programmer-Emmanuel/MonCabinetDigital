@@ -1,0 +1,130 @@
+<app-nav-bar/>
+
+<section class="relative overflow-hidden bg-white">
+
+    <!-- Fond / vagues -->
+    <svg
+        class="absolute inset-0 hidden w-full h-full pointer-events-none lg:block"
+        viewBox="0 0 428.56 428.56"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+    >
+        <rect x="0" y="0" width="428.56" height="428.56" fill="#ffffff"/>
+
+        <g>
+            <g transform="rotate(359 214.28 214.28)">
+                <path
+                    d="M -428.56 75.00 S -224.28 55.00 0.00 75.00 127.56 45.00 428.56 75.00 632.84 55.00 857.12 75.00 h 110 V -600 H -428.56 Z"
+                    fill="#061A33"
+                />
+                <path
+                    d="M -428.56 355.00 S -224.28 375.00 0.00 355.00 127.56 385.00 428.56 355.00 632.84 375.00 857.12 355.00 h 110 V 1028.56 H -428.56 Z"
+                    fill="#061A33"
+                />
+            </g>
+        </g>
+    </svg>
+
+    <svg
+        class="absolute inset-0 w-full h-full pointer-events-none lg:hidden"
+        viewBox="0 0 428.56 428.56"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+    >
+        <rect x="0" y="0" width="428.56" height="428.56" fill="#ffffff"/>
+
+        <g>
+            <g transform="rotate(359 214.28 214.28)">
+                <path
+                    d="M -428.56 48.00 S -224.28 30.00 0.00 48.00 127.56 22.00 428.56 48.00 632.84 30.00 857.12 48.00 h 110 V -600 H -428.56 Z"
+                    fill="#061A33"
+                />
+                <path
+                    d="M -428.56 388.00 S -224.28 408.00 0.00 388.00 127.56 418.00 428.56 388.00 632.84 408.00 857.12 388.00 h 110 V 1028.56 H -428.56 Z"
+                    fill="#061A33"
+                />
+            </g>
+        </g>
+    </svg>
+
+    <div class="relative z-10 flex min-h-[760px] items-center px-5 py-0 sm:min-h-[800px] sm:px-8 md:min-h-[820px] md:px-10 lg:min-h-[820px] lg:px-12 xl:min-h-[850px]">
+
+        <div class="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-10 sm:gap-12 lg:gap-8 items-center">
+
+            <!-- Image -->
+            <div
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                class="flex justify-center lg:justify-start order-1"
+            >
+                <div class="w-full max-w-[170px] sm:max-w-[220px] md:max-w-[260px] lg:max-w-[310px] xl:max-w-[330px]">
+                    <img
+                        [src]="image.image_section_actualites"
+                        alt="MonCabinetDigital"
+                        class="w-full h-auto object-contain rounded-xl"
+                    >
+                </div>
+            </div>
+
+            <!-- Texte -->
+            <div
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                class="text-center lg:text-left order-2"
+            >
+
+                <span
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    class="inline-block mb-3 sm:mb-4 text-[11px] sm:text-xs md:text-sm font-semibold uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[#D4AF37]"
+                >
+                    Notre identité
+                </span>
+
+                <h1
+                    data-aos="fade-up"
+                    data-aos-duration="900"
+                    data-aos-delay="100"
+                    class="text-[2rem] sm:text-4xl md:text-[3.4rem] lg:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.08] text-[#061A33]"
+                >
+                    Le droit
+                    <span class="text-[#D4AF37]"> accessible,</span>
+                    <br class="hidden sm:block">
+                    digital et innovant.
+                </h1>
+
+                <p
+                    data-aos="fade-up"
+                    data-aos-duration="900"
+                    data-aos-delay="200"
+                    class="max-w-2xl mx-auto lg:mx-0 mt-5 sm:mt-6 text-[15px] sm:text-base md:text-lg lg:text-xl leading-relaxed text-slate-600"
+                >
+                    MonCabinetDigital accompagne les étudiants, jeunes juristes
+                    et professionnels du droit dans le développement de leurs
+                    compétences pratiques et professionnelles.
+                </p>
+
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="900"
+                    data-aos-delay="300"
+                    class="mt-5 sm:mt-7"
+                >
+                    <p class="text-sm sm:text-base font-medium leading-relaxed text-[#061A33]">
+                        Maîtrisez la pratique ; disposez de bons outils professionnels !
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- Section mission -->
+<app-mission/>
+
+<app-footer/>

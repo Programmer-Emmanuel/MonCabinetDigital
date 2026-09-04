@@ -6,10 +6,12 @@ import { Cabinet } from '../../components/home components/cabinet/cabinet';
 import { Solution } from '../../components/home components/solution/solution';
 import { Actualite } from '../../components/home components/actualite/actualite';
 import { Contact } from '../../components/home components/contact/contact';
+import { RouterModule } from '@angular/router';
+import { Footer } from "../../components/footer/footer";
 
 @Component({
   selector: 'app-home',
-  imports: [NavBar, Apropos, Cabinet, Solution, Actualite, Contact],
+  imports: [RouterModule, NavBar, Apropos, Cabinet, Solution, Actualite, Contact, Footer],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
